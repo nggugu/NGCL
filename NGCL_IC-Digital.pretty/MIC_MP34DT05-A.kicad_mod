@@ -1,0 +1,251 @@
+(footprint "MIC_MP34DT05-A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/27/62/48/98/44/54/4d/36/DM00303211/files/DM00303211.pdf/jcr:content/translations/en.DM00303211.pdf")
+	(tags "HLGA Sensor Audio")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "c8244344-0f46-48c2-9ffc-0e68a1371603")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "${VALUE}"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "79f6894c-2fa3-4d56-82b9-19e3e816e424")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0865bd20-10e7-4348-9f05-a89cdc3f62ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b06cc625-1253-47ce-8257-3bf3ef95a4fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2fd0847-e371-4f59-93b8-5ada6575d4ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.675 -2.175)
+		(end -1.675 2.175)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b326f1b2-8d84-4c97-a5d5-23201afaf731")
+	)
+	(fp_line
+		(start 1.175 2.175)
+		(end -1.675 2.175)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "afe4e147-051a-4e58-b403-0e556d30c6b6")
+	)
+	(fp_line
+		(start 1.175 2.175)
+		(end 1.675 1.675)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad604fe0-f600-4f33-a741-539dbaa3b496")
+	)
+	(fp_line
+		(start 1.675 -2.175)
+		(end -1.675 -2.175)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d79d2d73-4d54-4716-97be-9ca0f4c881b1")
+	)
+	(fp_line
+		(start 1.675 1.675)
+		(end 1.675 -2.175)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "26c467ad-edc1-49d8-bf2a-b0fef673d515")
+	)
+	(fp_line
+		(start -1.5 -2)
+		(end -1.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d597ac94-75ab-481d-844b-c1d8cfdbbdca")
+	)
+	(fp_line
+		(start -1.5 2)
+		(end 1 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "15c06622-0198-4e09-83a5-55a0c166a663")
+	)
+	(fp_line
+		(start 1 2)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7155e4a9-62df-43a5-8b97-f931eccaa78c")
+	)
+	(fp_line
+		(start 1.5 -2)
+		(end -1.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2b7ae389-ff04-4499-8f68-c71e6cdf1501")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end 1.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "54bf06f2-afcf-438f-8a62-ed92a806ec26")
+	)
+	(fp_circle
+		(center 0 -0.78)
+		(end 0 -1.43)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2c06896e-92cc-4692-8ffd-3c1902cb9d9e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "2cff8ea6-0c1c-48bb-b5e1-ce999ef98a09")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.07)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.45 0.675)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "48e15856-8f8d-446a-9d35-069bdeb52d5a")
+	)
+	(pad "2" smd rect
+		(at 0.45 -0.675)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dcd53276-db01-40b6-92cc-8fdbcf7a2b45")
+	)
+	(pad "3" smd rect
+		(at -0.45 -0.675)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "83488962-bc55-4e03-92f6-d4105286fc75")
+	)
+	(pad "4" smd rect
+		(at -0.45 0.675)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8b9f19af-4583-4016-a04f-18df9a52cc77")
+	)
+	(pad "5" smd rect
+		(at -1.2 0)
+		(size 0.35 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "685ab981-1193-424e-bda0-16e5f3ccbd3e")
+	)
+	(pad "5" smd rect
+		(at 0 -1.7 90)
+		(size 0.35 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "837b372a-343b-4e51-a4dd-6e4234d24383")
+	)
+	(pad "5" smd rect
+		(at 0 1.7 90)
+		(size 0.35 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "528a2f3d-9541-410e-a673-0ee49e006e99")
+	)
+	(pad "5" smd rect
+		(at 1.2 0)
+		(size 0.35 2.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bb2c1968-c422-40e8-b5ef-b50bb3b6c434")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Sensor_Audio.3dshapes/ST_HLGA-6_3.76x4.72mm_P1.65mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
